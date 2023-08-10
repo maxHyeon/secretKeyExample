@@ -2,4 +2,4 @@ aws:
   secretsmanager:
     secretId: dev/EncryptKey
   encryptedSDK:
-    keyArn: 'arn:aws:kms:ap-northeast-2:*:key/fef294f0-d578-4c90-ae4b-42796207202c'
+    keyArn: '**'

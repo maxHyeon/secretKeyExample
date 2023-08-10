@@ -43,7 +43,6 @@ public class SecretManager {
             throw e;
         }
         SdkBytes secret = SdkBytes.fromByteArray(getSecretValueResponse.secretBinary().asByteArray());
-//        LOGGER.info(Kms.decryptWithEncryptSDK("arn:aws:kms:ap-northeast-2:014104314849:alias/encryptKey",secret));
         return secret;
     }
 }
